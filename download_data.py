@@ -112,6 +112,7 @@ def process_deaths() -> None:
     for i in glob(os.path.join(DATA_FOLDER, "DEMOMIGR_*.csv")):
         df = pd.read_csv(i)
         df = df[df["pohlavi"] == "T"]  # We want just the sum, not sum + males + females
+        df = df[df["uzemi"] == "CZ"]  # We want just the sum, not sum + regions
         df = df.drop(columns=["status", "uzemi_text", "vek_text", "pohlavi", "pohlavi_text", "status", "status_text"])
 
         if df_total is None:
