@@ -24,28 +24,8 @@
 
 #### P = 0
 
-![efficacy P=0](result/P_0_efficacy.png)
+![efficacy P=0](result/P_0_efficacy.jpg)
 
-#### P = 0.3
+#### P = 0.5
 
-![efficacy P=0.3](result/P_0.3_efficacy.png)
-
-### Nevakcinovaní - úmrtí na 100 000 obyvatel
-
-#### P = 0
-
-![100000 P=0](result/P_0_100000_normal.png)
-
-#### P = 0.3
-
-![100000 P=0.3](result/P_0.3_100000_normal.png)
-
-### Vakcinovaní - úmrtí na 100 000 obyvatel
-
-#### P = 0
-
-![100000 vax P=0](result/P_0_100000_vaccinated.png)
-
-#### P = 0.3
-
-![100000 vax P=0.3](result/P_0.3_100000_vaccinated.png)
+![efficacy P=0.3](result/P_0.5_efficacy.jpg)
