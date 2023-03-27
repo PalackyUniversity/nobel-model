@@ -1,4 +1,3 @@
-from datetime import datetime
 from urllib import request
 from typing import Union
 from common import *
@@ -14,7 +13,7 @@ URLS = [
     VACCINATION_URL,
     COUNTS_URL,
     "https://www.czso.cz/documents/10180/179851740/demomigr_2005_2021_komplet.zip",
-    "https://www.czso.cz/documents/10180/179851750/demomigr_2022_predbezna_2022t51.zip"
+    "https://www.czso.cz/documents/10180/191186413/demomigr_2022_predbezna_2023t04.zip"
 ]
 
 
