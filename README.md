@@ -42,5 +42,7 @@
 
 ### Sanity checks
 
+![vaccination](result/vaccination.png)
+
 ![population](result/alive_derivative/age=80-129__TIMEDELTA_WEEKS=52__P=0.1.png)
 
