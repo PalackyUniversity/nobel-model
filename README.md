@@ -14,18 +14,33 @@
 - Přecházení mezi jednotlivými věkovými skupinami v čase + rození lidí
 
 ## Parametr P
-- pokud **P = 0** - umírání vakcinovaných i nevakcinovaných probíhá rovnoměrně
-- pokud **P > 0** - nevakcinovaní umírají více na úkor vakcinovaných (efekt vypadám na umření/skoro umírám => není logické, abych se šel očkovat a ještě se ohrožoval)
+- pokud **P = 0** - vakcinace probíhá nezávisle na tom, zda daný člověk vypadá na umření
+- pokud **P > 0** - člověk na umření (parametr TIMEDELTA) je z pravděpodobností P nevakcinován
 
+## Parametr TIMEDELTA
+- Definuje člověka na umření -- pokud je vakcinace určena blíže než TIMEDELTA týdnů od data úmrtí, je aplikován krok výše (Parametr P)
 
 ## Ukázkový výstup 
 
-### Účinnost vakcín
+### Účinnost vakcín pro kategorii 80-129
 
-#### P = 0
+#### P = 0, TIMEDELTA = 2 týdny
 
-![efficacy P=0](result/P_0_efficacy.jpg)
+![efficacy P=0 TIMEDELTA=2](result/efficacy/age=80-129__TIMEDELTA_WEEKS=2__P=0.png)
 
-#### P = 0.5
+#### P = 0.5, TIMEDELTA = 2 týdny
 
-![efficacy P=0.3](result/P_0.5_efficacy.jpg)
+![efficacy P=0.5 TIMEDELTA=2](result/efficacy/age=80-129__TIMEDELTA_WEEKS=2__P=0.5.png)
+
+#### P = 0.5, TIMEDELTA = 4 týdny
+
+![efficacy P=0.5 TIMEDELTA=4](result/efficacy/age=80-129__TIMEDELTA_WEEKS=4__P=0.5.png)
+
+#### P = 0.1, TIMEDELTA = 52 týdnů (~ 1 rok)
+
+![efficacy P=0.1 TIMEDELTA=52](result/efficacy/age=80-129__TIMEDELTA_WEEKS=52__P=0.1.png)
+
+### Sanity checks
+
+![population](result/alive_derivative/age=80-129__TIMEDELTA_WEEKS=52__P=0.1.png)
+
