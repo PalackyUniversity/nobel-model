@@ -26,23 +26,23 @@
 
 #### P = 0, TIMEDELTA = 2 týdny
 
-![efficacy P=0 TIMEDELTA=2](result/efficacy/age=80-129__TIMEDELTA_WEEKS=2__P=0.png)
+![efficacy P=0 TIMEDELTA=2](result/efficacy/AGE=80-129__TIMEDELTA_WEEKS=2__P=0.00.png)
 
 #### P = 0.5, TIMEDELTA = 2 týdny
 
-![efficacy P=0.5 TIMEDELTA=2](result/efficacy/age=80-129__TIMEDELTA_WEEKS=2__P=0.5.png)
+![efficacy P=0.5 TIMEDELTA=2](result/efficacy/AGE=80-129__TIMEDELTA_WEEKS=2__P=0.50.png)
 
 #### P = 1, TIMEDELTA = 2 týdny
 
-![efficacy P=1 TIMEDELTA=2](result/efficacy/age=80-129__TIMEDELTA_WEEKS=2__P=1.png)
+![efficacy P=1 TIMEDELTA=2](result/efficacy/AGE=80-129__TIMEDELTA_WEEKS=2__P=1.00.png)
 
 #### P = 0.5, TIMEDELTA = 4 týdny
 
-![efficacy P=0.5 TIMEDELTA=4](result/efficacy/age=80-129__TIMEDELTA_WEEKS=4__P=0.5.png)
+![efficacy P=0.5 TIMEDELTA=4](result/efficacy/AGE=80-129__TIMEDELTA_WEEKS=4__P=0.50.png)
 
 #### P = 0.1, TIMEDELTA = 52 týdnů (~ 1 rok)
 
-![efficacy P=0.1 TIMEDELTA=52](result/efficacy/age=80-129__TIMEDELTA_WEEKS=52__P=0.1.png)
+![efficacy P=0.1 TIMEDELTA=52](result/efficacy/AGE=80-129__TIMEDELTA_WEEKS=52__P=0.10.png)
 
 ### Sanity checks
 
